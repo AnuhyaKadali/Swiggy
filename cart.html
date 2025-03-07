@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="shortcut icon" href="Icons.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Left Side: Logo & Dropdown -->
+        <div class="logo-dropdown">
+            <img src="Icons.png" alt="Swiggy Logo" class="logo">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-bars"></i> Menu</button>
+                <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-utensils"></i> Restaurants</a>
+                    <a href="#"><i class="fas fa-shopping-basket"></i> Grocery</a>
+                    <a href="#"><i class="fas fa-store"></i> Instamart</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Side: Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="offers.html" class="nav-link"><i class="fas fa-tags"></i> Offers</a>
+            <a href="help.html" class="nav-link"><i class="fas fa-question-circle"></i> Help</a>
+            <a href="signin.html" class="nav-link"><i class="fas fa-user"></i> Sign In</a>
+            <a href="cart.html" class="nav-link cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+            <input type="text" placeholder="Search" class="search-box">
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <!-- Header Section -->
+        <h2 class="cart-title">Your Cart</h2>
+        
+        <!-- Cart Form Section -->
+        <form class="cart-form">
+            <!-- Cart Items Section -->
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="meals.avif" alt="Meal" class="cart-item-image">
+                    <div class="cart-item-details">
+                        <p class="cart-item-name">Meals</p>
+                        <p class="cart-item-price">$15.00</p>
+                    </div>
+                    <div class="cart-item-quantity">
+                        <button type="button" class="quantity-btn">-</button>
+                        <input type="number" value="1" class="quantity-input">
+                        <button type="button" class="quantity-btn">+</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="burger.jpg" alt="Burger" class="cart-item-image">
+                    <div class="cart-item-details">
+                        <p class="cart-item-name">Burger</p>
+                        <p class="cart-item-price">$10.00</p>
+                    </div>
+                    <div class="cart-item-quantity">
+                        <button type="button" class="quantity-btn">-</button>
+                        <input type="number" value="1" class="quantity-input">
+                        <button type="button" class="quantity-btn">+</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="Noodles.jpg" alt="Meal" class="cart-item-image">
+                    <div class="cart-item-details">
+                        <p class="cart-item-name">Noodles</p>
+                        <p class="cart-item-price">5.00</p>
+                    </div>
+                    <div class="cart-item-quantity">
+                        <button type="button" class="quantity-btn">-</button>
+                        <input type="number" value="1" class="quantity-input">
+                        <button type="button" class="quantity-btn">+</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cart Summary Section -->
+            <div class="cart-summary">
+                <div class="summary-item">
+                    <p class="summary-text">Subtotal:</p>
+                    <p class="summary-value">$25.00</p>
+                </div>
+                <div class="summary-item">
+                    <p class="summary-text">Delivery Fee:</p>
+                    <p class="summary-value">$2.00</p>
+                </div>
+                <div class="summary-item total">
+                    <p class="summary-text">Total:</p>
+                    <p class="summary-value">$27.00</p>
+                </div>
+            </div>
+
+            <!-- Checkout Button -->
+            <div class="checkout-btn-container">
+                <button type="submit" class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Swiggy is one of the leading food delivery platforms, connecting users with the best restaurants around the city.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Instamart</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <ul>
+                <li>Phone: +91 123-456-7890</li>
+                <li>Email: support@swiggy.com</li>
+                <li>Address: 123, Food Street, Bangalore, India</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Swiggy. All Rights Reserved.</p>
+        <p>Developed by Anuhya Kadali</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+
+/* Help Page Content */
+.help-content {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-bottom: 60px;
+}
+
+.faq-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.faq {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.faq-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.faq-item h3 {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+/* Hover effect for FAQ items */
+.faq-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section */
+.contact-section {
+    margin-bottom: 60px;
+}
+
+.contact-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-section p{
+    color:#333;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-item {
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-item p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-item i {
+    font-size: 1.8em;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Help Center Section */
+.help-center-section {
+    margin-bottom: 60px;
+}
+
+.help-center-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+.help-center-section p{
+    color:#333;
+}
+
+.help-center-section a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.help-center-section a:hover {
+    text-decoration: underline;
+}
