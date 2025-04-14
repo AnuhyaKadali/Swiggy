@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0ffe0, #ffffff);
+    color: #2e5339;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #34a853;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+/* Main */
+main {
+    background-color: #f7fff7;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+main p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+main h2 {
+    color: #2b7a3d;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+/* List Styling */
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #eaffea;
+    border-left: 5px solid #34a853;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #cfffca;
+    transform: translateX(5px);
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    main {
+        padding: 15px;
+    }
+}

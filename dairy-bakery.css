@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #f9fdfb, #ffffff);
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #34a853; /* soft mint green */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Main Section */
+main {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+}
+
+/* Paragraph */
+main p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Image Grid Styling */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+    gap: 25px;                              
+    margin-top: 25px;                         
+    max-width: 800px;                         
+    margin: 0 auto;                          
+}
+
+.image-grid img {
+    width: 100%;                             
+    height: 100%;                             
+    border-radius: 12px;                    
+    object-fit: cover;                       
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease;                /* Smooth transition for hover effects */
+}
+
+/* Hover Effect */
+.image-grid img:hover {
+    transform: scale(1.05);                    /* Slight zoom effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    filter: brightness(1.1);                   /* Slight brightness increase */
+}
